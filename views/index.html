@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/styles.css">
+    <title>Booking</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Search Hundreds of travel sites at once</h1>
+        <div class="d-inline-flex container-fluid">
+            <div class="container-sm">
+                <select class="form-select" name="" id="">
+                    <option value="">One-way</option>
+                    <option value="" selected>Round-trip</option>
+                </select>
+            </div>
+            <div class="container-sm">
+                <label for="adults">
+                    <span>Adults</span><span>18-64</span>
+                </label>
+                <input type="number" name="adults" id="adults" value="0" min="0" max="9">
+                <label for="students">
+                    <span>Students</span><span>over 18</span>
+                </label>
+                <input type="number" name="students" id="students" value="0" min="0" max="9">
+                <label for="seniors">
+                    <span>Seniors</span><span>over 65</span>
+                </label>
+                <input type="number" name="seniors" id="seniors" value="0" min="0" max="9">
+                <label for="youths">
+                    <span>Youths</span><span>12-17</span>
+                </label>
+                <input type="number" name="youths" id="youths" value="0" min="0" max="9">
+                <label for="children">
+                    <span>Children</span><span>2-11</span>
+                </label>
+                <input type="number" name="children" id="children" value="0" min="0" max="9">
+                <label for="toddlers">
+                    <span>Toddlers in own seat</span><span>under 2</span>
+                </label>
+                <input type="number" name="toddlers" id="toddlers" value="0" min="0" max="9">
+                <label for="infants">
+                    <span>Infants on lap</span><span>under 2</span>
+                </label>
+                <input type="number" name="infants" id="infants" value="0" min="0" max="9">
+            </div>
+            <div class="container-sm">
+                <select class="form-select" name="" id="">
+                    <option value="" selected>Economy</option>
+                    <option value="">Premium Economy</option>
+                    <option value="">Business</option>
+                    <option value="">First</option>
+                </select>
+            </div>
+            <div class="container-sm">
+                <label for="departText">Depart</label>
+                <input type="text" name="depart" id="departText" placeholder="Depart Place">
+                <label for="arriveText">Depart</label>
+                <input type="text" name="arrive" id="arriveText" placeholder="Arrive Place">
+                <label for="departDate">Depart Date</label>
+                <input type="date" name="departDate" id="departDate">
+                <label for="returnDate">Return Date</label>
+                <input type="date" name="returnDate" id="returnDate">
+            </div>
+            <button id="search" class="">Search</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
