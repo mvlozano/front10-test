@@ -15,14 +15,11 @@ A little bit of what's inside the project:
 
 Endpoints | Description | Params
 ----------|-------------|-------------
-POST `/travels/flight/` | Create a new flight | 
-Example Params via body
+POST `/travels/flight/` | Create a new flight | Example Params via body
 `{"airline": "Fly-Emirates","origin": "Miami","destination": "Havana","date": "2023-03-05","categoriesAndVacancies": {"category": "Bussiness","adults":20}}`
-GET `/travels/flight/one-way` | Return all flights from origin to destination matching all params | 
-Example Params via query: `origin=havana&destination=miami&date=2023-02-12&category=Bussiness&adults=3`
+GET `/travels/flight/one-way` | Return all flights from origin to destination matching all params | Example Params via query: `origin=havana&destination=miami&date=2023-02-12&category=Bussiness&adults=3`
 
-GET `travels/flight/round-trip` | Return all flights from origin to destination matching all params | 
-Example Params via query:
+GET `travels/flight/round-trip` | Return all flights from origin to destination matching all params | Example Params via query:
 `origin=havana&destination=miami&departDate=2023-02-12&returnDate=2023-03-05&category=Bussiness&adults=3`
 
 
